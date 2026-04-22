@@ -23,4 +23,5 @@ sudo udevadm control --reload-rules && sudo udevadm trigger
 rocminfo
 rocm-smi
 rocm-smi --showtopo
+sudo reboot
 
