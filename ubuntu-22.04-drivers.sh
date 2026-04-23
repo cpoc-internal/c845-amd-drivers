@@ -8,8 +8,8 @@ sudo chown -Rv _apt:root /var/cache/apt/archives/partial/
 sudo chmod -Rv 700 /var/cache/apt/archives/partial/
 sudo apt install ./amdgpu-install_*.deb -y
 
-sudo amdgpu-install --rocmrelease=6.2.4 --usecase=rocm,hiplibsdk -y
-sudo amdgpu-install --usecase=rocm,hiplibsdk --no-dkms --rocmrelease=6.2.4 -y
+sudo amdgpu-install --rocmrelease=7.1.1 --usecase=rocm,hiplibsdk -y
+sudo amdgpu-install --usecase=rocm,hiplibsdk --no-dkms --rocmrelease=7.1.1 -y
 amdgpu-install -y --usecase=graphics -y
 
 sudo apt install linux-headers-$(uname -r)
