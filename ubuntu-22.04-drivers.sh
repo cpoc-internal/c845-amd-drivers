@@ -3,7 +3,7 @@ sudo apt install wget gnupg2 shell-scripts -y
 sudo apt-get install shim-signed
 
 #wget https://repo.radeon.com/amdgpu-install/6.2.4/ubuntu/jammy/amdgpu-install_6.2.60204-1_all.deb
-wget https://repo.radeon.com/amdgpu-install/7.2.2/ubuntu/jammy/amdgpu-install_7.2.2.70202-1_all.deb
+wget https://repo.radeon.com/amdgpu-install/7.1.1/ubuntu/jammy/amdgpu-install_7.1.1.70101-1_all.deb  
 sudo chown -Rv _apt:root /var/cache/apt/archives/partial/
 sudo chmod -Rv 700 /var/cache/apt/archives/partial/
 sudo apt install ./amdgpu-install_*.deb -y
